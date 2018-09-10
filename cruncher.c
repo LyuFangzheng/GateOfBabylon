@@ -165,7 +165,7 @@ void query(unsigned short qid, unsigned short artist, unsigned short areltd[], u
         for (knows_offset2 = knows->knows_first;
 				knows_offset2 < knows->knows_first + knows->knows_n;
 				knows_offset2++) {
-            if(knows_map[knows_offset2]=person_offset){
+            if(knows_map[knows_offset2] == person_offset){
 
                 fprintf(outfile, "%d|%d|%lu|%lu\n", qid, results[result_idx].score,
                 person->person_id, knows->person_id);
