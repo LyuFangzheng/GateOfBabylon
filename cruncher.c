@@ -9,6 +9,7 @@
 
 #include "utils.h"
 
+
 #define QUERY_FIELD_QID 0
 #define QUERY_FIELD_A1 1
 #define QUERY_FIELD_A2 2
