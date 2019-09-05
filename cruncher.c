@@ -174,8 +174,6 @@ void query(unsigned short qid, unsigned short artist, unsigned short areltd[], u
 
         }
     }
-
-}
 }
 void query_line_handler(unsigned char nfields, char** tokens) {
 	unsigned short q_id, q_artist, q_bdaystart, q_bdayend;
